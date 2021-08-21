@@ -1,2 +1,2 @@
 # logo
-css logo source
+a css version of the logo
