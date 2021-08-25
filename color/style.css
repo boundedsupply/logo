@@ -12,13 +12,13 @@
     border-radius: 50%;
 }
 .left {
-    background-image: conic-gradient(from 50deg, #00E3D8, #E2FCA5);
+    background-image: conic-gradient(from 50deg, #4D4DFF, #6133d7);
 }
 .right {
-    background-image: conic-gradient(from 230deg, #00E3D8, #007DE3);
+    background-image: conic-gradient(from 230deg, #4D4DFF, #00dbde);
 }
 .top {
-    background-image: linear-gradient(to right, #62eacc, #00cadc 50%);
+    background-image: linear-gradient(to right, #5347f5, #4a71f7);
 }
 .overlapcircle {
     position: relative;
@@ -29,4 +29,11 @@
     left: -281px;
     bottom: -50px;
     transform: rotate(320deg);
+}
+.center {
+  margin: auto;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 20%;  
 }

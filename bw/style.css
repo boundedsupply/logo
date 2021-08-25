@@ -1,0 +1,32 @@
+.box {
+    height: 100px;
+    width: 117px;
+    float: left;
+    border-left: none;
+    border-top: none;
+}
+.circlebox {
+    height: 200px;
+    width: 200px;
+    float: left;
+    border-radius: 50%;
+}
+.left {
+    background-image: conic-gradient(from 50deg, #8B8680, #000000);
+}
+.right {
+    background-image: conic-gradient(from 230deg, #8B8680, #FFFFFF);
+}
+.top {
+    background-image: linear-gradient(to right, #686461, #a4a5a1);
+}
+.overlapcircle {
+    position: relative;
+    left: -45px;
+}
+.overlaybox {
+    position: relative;
+    left: -281px;
+    bottom: -50px;
+    transform: rotate(320deg);
+}
